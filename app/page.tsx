@@ -26,9 +26,10 @@ export default function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-lg px-8 py-6">
-          Reserva una llamada de diagnóstico gratuita
-        </Button>
+        <Button size="lg" className="w-full max-w-md mx-auto bg-blue-500 hover:bg-blue-600 text-white text-lg py-4 px-6 rounded-lg">
+  Reserva una llamada de diagnóstico gratuita
+</Button>
+
       </a>
     </div>
   </section>
@@ -124,9 +125,10 @@ export default function Home() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-lg px-8 py-6 mb-6">
-        Reserva una llamada de diagnóstico gratuita
-      </Button>
+      
+      <Button size="lg" className="w-full max-w-md mx-auto bg-blue-500 hover:bg-blue-600 text-white text-lg py-4 px-6 rounded-lg">
+  Reserva una llamada de diagnóstico gratuita
+</Button>
     </a>
 
     <p className="mt-4 text-gray-400">
