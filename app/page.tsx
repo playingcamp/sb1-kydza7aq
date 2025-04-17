@@ -6,32 +6,33 @@ import { Card } from "@/components/ui/card";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      {/* Hero Section */}
-     <section className="relative min-h-screen flex items-center justify-center bg-black text-white px-4">
-  <div className="absolute inset-0 bg-gradient-to-br from-black to-blue-900 opacity-90"></div>
-  <div className="relative z-10 w-full max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400">
-            Estás perdiendo tiempo, dinero y salud por no integrar IA.
-          </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-300">
-            Yo te ayudo a parar, implementar y escalar sin quemarte.
-          </p>
-          <p className="text-lg mb-12 text-gray-400">
-            Trabajo con fundadores desbordados que necesitan claridad, foco y herramientas reales para integrar IA en sus procesos, productos y cultura.
-          </p>
-          <a
-  href="https://app.apollo.io/#/meet/playingcamp/15-min"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-lg px-8 py-6">
-    Reserva una llamada de diagnóstico gratuita
-  </Button>
-</a>
+   
+  <main className="min-h-screen overflow-x-hidden">
+  {/* Hero Section */}
+  <section className="relative min-h-screen flex items-center justify-center bg-black text-white px-4">
+    <div className="absolute inset-0 bg-gradient-to-br from-black to-blue-900 opacity-90"></div>
+    <div className="relative z-10 w-full max-w-3xl mx-auto text-center">
+      <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400 break-words">
+        Estás perdiendo tiempo, dinero y salud por no integrar IA.
+      </h1>
+      <p className="text-xl md:text-2xl mb-8 text-gray-300">
+        Yo te ayudo a parar, implementar y escalar sin quemarte.
+      </p>
+      <p className="text-lg mb-12 text-gray-400">
+        Trabajo con fundadores desbordados que necesitan claridad, foco y herramientas reales para integrar IA en sus procesos, productos y cultura.
+      </p>
+      <a
+        href="https://app.apollo.io/#/meet/playingcamp/15-min"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-lg px-8 py-6">
+          Reserva una llamada de diagnóstico gratuita
+        </Button>
+      </a>
+    </div>
+  </section>
 
-        </div>
-      </section>
 
       {/* About Section */}
       <section className="py-20 bg-white">
@@ -111,44 +112,45 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="py-20 bg-black text-white">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8">Haz que la IA trabaje para ti, no contra ti</h2>
-          <p className="text-lg mb-8">
-            Agenda una sesión de diagnóstico gratuita y descubre cómo la IA puede transformar tu startup
-          </p>
-         <a
-  href="https://app.apollo.io/#/meet/playingcamp/15-min"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-lg px-8 py-6">
-    Reserva una llamada de diagnóstico gratuita
-  </Button>
-</a>
+{/* Contact Section */}
+<section className="py-20 bg-black text-white px-4">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-8">Haz que la IA trabaje para ti, no contra ti</h2>
+    <p className="text-lg mb-8">
+      Agenda una sesión de diagnóstico gratuita y descubre cómo la IA puede transformar tu startup
+    </p>
+    <a
+      href="https://app.apollo.io/#/meet/playingcamp/15-min"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-lg px-8 py-6 mb-6">
+        Reserva una llamada de diagnóstico gratuita
+      </Button>
+    </a>
 
-          <p className="mt-8 text-gray-400">
-  O escríbeme directamente a{" "}
-  <a
-    href="mailto:hello@playingcamp.com"
-    className="text-blue-400 hover:text-blue-300"
-  >
-    hello@playingcamp.com
-  </a>
-  {" "}o por{" "}
-  <a
-    href="https://wa.me/34601569640"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-green-400 hover:text-green-300"
-  >
-    WhatsApp
-  </a>
-</p>
+    <p className="mt-4 text-gray-400">
+      O escríbeme directamente a{" "}
+      <a
+        href="mailto:hello@playingcamp.com"
+        className="text-blue-400 hover:text-blue-300"
+      >
+        hello@playingcamp.com
+      </a>{" "}
+      o por{" "}
+      <a
+        href="https://wa.me/34601569640"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-green-400 hover:text-green-300"
+      >
+        WhatsApp
+      </a>
+    </p>
+  </div>
+</section>
 
-        </div>
-      </section>
+    
       <footer className="bg-black text-gray-400 text-center py-6 text-sm">
   © 2024 Carlos Alcalá Marcos. Todos los derechos reservados.
 </footer>
