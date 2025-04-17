@@ -8,6 +8,9 @@ export default function Home() {
   return (
    
   <main className="min-h-screen overflow-x-hidden">
+    {/* Google Translate dropdown */}
+<div id="google_translate_element" className="fixed top-4 right-4 z-50" />
+
   {/* Hero Section */}
   <section className="relative min-h-screen flex items-center justify-center bg-black text-white px-4">
     <div className="absolute inset-0 bg-gradient-to-br from-black to-blue-900 opacity-90"></div>
