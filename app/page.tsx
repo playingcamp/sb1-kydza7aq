@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-black text-white">
-        <div className="absolute inset-0 bg-gradient-to-br from-black to-blue-900 opacity-90"></div>
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
+     <section className="relative min-h-screen flex items-center justify-center bg-black text-white px-4">
+  <div className="absolute inset-0 bg-gradient-to-br from-black to-blue-900 opacity-90"></div>
+  <div className="relative z-10 w-full max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400">
             Estás perdiendo tiempo, dinero y salud por no integrar IA.
           </h1>
