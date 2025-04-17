@@ -27,7 +27,7 @@ export default function Home() {
         rel="noopener noreferrer"
       >
         <Button size="lg" className="w-full max-w-md mx-auto bg-blue-500 hover:bg-blue-600 text-white text-lg py-4 px-6 rounded-lg">
-  Reserva una llamada de diagnóstico gratuita
+  Reserva tu llamada de diagnóstico gratuita
 </Button>
 
       </a>
@@ -127,7 +127,7 @@ export default function Home() {
     >
       
       <Button size="lg" className="w-full max-w-md mx-auto bg-blue-500 hover:bg-blue-600 text-white text-lg py-4 px-6 rounded-lg">
-  Reserva una llamada de diagnóstico gratuita
+  Reserva tu llamada de diagnóstico gratuita
 </Button>
     </a>
 
